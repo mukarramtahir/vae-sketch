@@ -1,2 +1,2 @@
-model_checkpoint_path: "/home/mukarram/caption_to_image/src/old_vae/models/barn_l_2"
-all_model_checkpoint_paths: "/home/mukarram/caption_to_image/src/old_vae/models/barn_l_2"
+model_checkpoint_path: "/Users/mukarram/Dropbox (MIT)/6_687_Homework/Project/vae-sketch/models/composite_l_20"
+all_model_checkpoint_paths: "/Users/mukarram/Dropbox (MIT)/6_687_Homework/Project/vae-sketch/models/composite_l_20"

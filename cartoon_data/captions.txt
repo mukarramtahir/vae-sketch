@@ -17,7 +17,7 @@ fut_16 I can see a banana and a table, and the banana is located under the table
 fut_17 Banana and table on the floor
 fut_18 A table with a banana on the bottom
 fut_19 I see a table and a banana under the table
-fut_20 This is a table with a banana under it
+fut_0 This is a table with a banana under it
 but_1 There is a box under the table
 but_2 The table has a box under it
 but_3 A table with a box underneath it
@@ -37,7 +37,7 @@ but_16 I can see a box and a table, and the box is located under the table
 but_17 Box and table on the floor
 but_18 A table with a box on the bottom
 but_19 I see a table and a box under the table
-but_20 This is a table with a box under it
+but_0 This is a table with a box under it
 fuc_1 There is a banana under the chair
 fuc_2 The chair has a banana under it
 fuc_3 A chair with a banana underneath it
@@ -57,7 +57,7 @@ fuc_16 I can see a banana and a chair, and the banana is located under the chair
 fuc_17 Banana and chair on the floor
 fuc_18 A chair with a banana on the bottom
 fuc_19 I see a chair and a banana under the chair
-fuc_20 This is a chair with a banana under it
+fuc_0 This is a chair with a banana under it
 buc_1 There is a box under the chair
 buc_2 The chair has a box under it
 buc_3 A chair with a box underneath it
@@ -77,7 +77,7 @@ buc_16 I can see a box and a chair, and the box is located under the chair
 buc_17 Box and chair on the floor
 buc_18 A chair with a box on the bottom
 buc_19 I see a chair and a box under the chair
-buc_20 This is a chair with a box under it
+buc_0 This is a chair with a box under it
 fbt_1 This image contains a banana beside a table
 fbt_2 A table with a banana sitting beside it on the floor
 fbt_3 A table and banana are on the floor, and a banana is to the right of the table
@@ -97,7 +97,7 @@ fbt_16 I see a table and a banana beside the table
 fbt_17 This is a table and there seems to be a banana beside it
 fbt_18 A table with a banana beside it
 fbt_19 Banana and table on the floor
-fbt_20 Banana with a table beside it
+fbt_0 Banana with a table beside it
 bbt_1 This image contains a box beside a table
 bbt_2 A table with a box sitting beside it on the floor
 bbt_3 A table and box are on the floor, and a banana is to the right of the table
@@ -117,7 +117,7 @@ bbt_16 I see a table and a box beside the table
 bbt_17 This is a table and there seems to be a box beside it
 bbt_18 A table with a box beside it
 bbt_19 Box and table on the floor
-bbt_20 Box with a table beside it
+bbt_0 Box with a table beside it
 fbc_1 This image contains a banana beside a chair
 fbc_2 A chair with a banana sitting beside it on the floor
 fbc_3 A chair and banana are on the floor, and a banana is to the right of the chair
@@ -137,7 +137,7 @@ fbc_16 I see a chair and a banana beside the chair
 fbc_17 This is a chair and there seems to be a banana beside it
 fbc_18 A chair with a banana beside it
 fbc_19 Banana and chair on the floor
-fbc_20 Banana with a chair beside it
+fbc_0 Banana with a chair beside it
 bbc_1 This image contains a box beside a chair
 bbc_2 A chair with a box sitting beside it on the floor
 bbc_3 A chair and box are on the floor, and a banana is to the right of the chair
@@ -157,7 +157,7 @@ bbc_16 I see a chair and a box beside the chair
 bbc_17 This is a chair and there seems to be a box beside it
 bbc_18 A chair with a box beside it
 bbc_19 Box and chair on the floor
-bbc_20 Box with a chair beside it
+bbc_0 Box with a chair beside it
 fat_1 This is a table with a banana on it
 fat_2 A banana on top of the table
 fat_3 A banana sitting on top of the table
@@ -177,7 +177,7 @@ fat_16 This sketch contains a table with a banana on top
 fat_17 I see a table with a banana on it
 fat_18 Banana on top of a table
 fat_19 There is a banana on this table
-fat_20 A banana on a table
+fat_0 A banana on a table
 bat_1 This is a table with a box on it
 bat_2 A box on top of the table
 bat_3 A box sitting on top of the table
@@ -197,7 +197,7 @@ bat_16 This sketch contains a table with a box on top
 bat_17 I see a table with a box on it
 bat_18 Box on top of a table
 bat_19 There is a box on this table
-bat_20 A box on a table
+bat_0 A box on a table
 fac_1 This is a chair with a banana on it
 fac_2 A banana on top of the chair
 fac_3 A banana sitting on top of the chair
@@ -217,7 +217,7 @@ fac_16 This sketch contains a chair with a banana on top
 fac_17 I see a chair with a banana on it
 fac_18 Banana on top of a chair
 fac_19 There is a banana on this chair
-fac_20 A banana on a chair
+fac_0 A banana on a chair
 bac_1 This is a chair with a box on it
 bac_2 A box on top of the chair
 bac_3 A box sitting on top of the chair
@@ -237,4 +237,4 @@ bac_16 This sketch contains a chair with a box on top
 bac_17 I see a chair with a box on it
 bac_18 Box on top of a chair
 bac_19 There is a box on this chair
-bac_20 A box on a chair
+bac_0 A box on a chair
