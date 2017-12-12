@@ -6,28 +6,21 @@ from os import listdir
 import numpy as np
 import matplotlib.pyplot as plt
 
-train = []
-labels = []
+class Cartoon:
+    def __init__(self, class_names, path='cartoon_data'):
+        self.train_data = []
+        self.train_label = []
 
-for f in listdir('cartoon_data'):
-    #image = imread('cartoon_data/%s' % f, as_grey=True)
-    #image = resize(image, (28, 28), anti_aliasing=True)
-    #if f[2] == 't':
-    image = Image.open('cartoon_data/%s' % f)
-    image = image.resize((28, 28), Image.ANTIALIAS)
-    image = np.asarray(image)
-    image = image / 255.
-    #image = np.abs(image - 1)
-    image = np.ravel(image)
-    train.append(image.tolist())
-    labels.append(f[:3])
+        for f in listdir(path):
+            if f[:3] in class_names:
+                image = Image.open('cartoon_data/%s' % f)
+                image = image.resize((28, 28), Image.ANTIALIAS) 
+                image = np.asarray(image)
+                image = image / 255.
+                image = np.ravel(image)
 
-n_samples = len(train)
+                self.train_data.append(image.tolist())
+                self.train_label.append(f[:3])
 
-def next_batch(num):
-    idx = np.arange(0 , len(train))
-    np.random.shuffle(idx)
-    idx = idx[:num]
-    shuffled_train = [train[i] for i in idx]
-    shuffled_labels = [labels[i] for i in idx]
-    return np.array(shuffled_train), shuffled_labels
+        self.train_data = np.array(self.train_data)
+        self.train_label = np.array(self.train_label)
